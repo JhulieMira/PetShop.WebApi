@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PetShop.Domain.Models
 {
-    internal class Animal
+    public class Animal : Entity
     {
         public Cliente Tutor { get; set; }
         public string Nome { get; set; }
